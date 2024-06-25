@@ -1,0 +1,31 @@
+#root {
+  
+ 
+}
+
+.img{
+  width: 100%;  
+  object-fit: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+button{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.right{
+  right: 0;
+
+}
+.App{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
